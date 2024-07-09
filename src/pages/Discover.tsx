@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import HeartIcon from "../assets/img/heart.svg"
-import cartIcon from "../assets/img/shopping-cart.svg";
-import backIcon from "../assets/img/chevron-left.svg";
+// import { Link } from "react-router-dom";
+// import HeartIcon from "../assets/img/heart.svg"
+// import cartIcon from "../assets/img/shopping-cart.svg";
+// import backIcon from "../assets/img/chevron-left.svg";
 import All from "./All"
 
 const Discover: React.FC = () => {

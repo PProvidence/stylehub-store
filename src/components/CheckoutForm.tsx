@@ -1,20 +1,29 @@
 import React from 'react';
+import DeliveryIcon from "../assets/img/car-side_svgrepo.com.svg";
+import PickupIcon from "../assets/img/cart_svgrepo.com.png";
+import MastercardIcon from "../assets/img/Frame 60218.svg";
+import PaypalIcon from "../assets/img/logo-paypal_svgrepo.com.png";
+import VisaIcon from "../assets/img/visa-fill_svgrepo.com.png";
 
 interface CheckoutFormProps {
   onSubmit: (formData: FormData) => void;
 }
 
 interface FormData {
-  name: string;
-  email: string;
+  deliveryOption: string;
   address: string;
+  paymentType: string;
+  cardNumber: string;
+  cvv: string;
 }
 
 const CheckoutForm: React.FC<CheckoutFormProps> = ({ onSubmit }) => {
   const [formData, setFormData] = React.useState<FormData>({
-    name: '',
-    email: '',
+    deliveryOption: '',
     address: '',
+    paymentType: '',
+    cardNumber: '',
+    cvv: '',
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -29,60 +38,24 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({ onSubmit }) => {
     e.preventDefault();
     onSubmit(formData);
     // Optionally, you can reset the form fields after submission
-    setFormData({ name: '', email: '', address: '' });
+    setFormData({
+      deliveryOption: '',
+      address: '',
+      paymentType: '',
+      cardNumber: '',
+      cvv: '',
+    });
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mt-4">
-      <div className="mb-4">
-        <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-          Name
-        </label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          className="mt-1 px-3 py-2 block w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-          required
-        />
-      </div>
-      <div className="mb-4">
-        <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-          Email
-        </label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          className="mt-1 px-3 py-2 block w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-          required
-        />
-      </div>
-      <div className="mb-4">
-        <label htmlFor="address" className="block text-sm font-medium text-gray-700">
-          Address
-        </label>
-        <textarea
-          id="address"
-          name="address"
-          value={formData.address}
-          onChange={handleChange}
-          rows={3}
-          className="mt-1 px-3 py-2 block w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-          required
-        />
-      </div>
-      <button
-        type="submit"
-        className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"
-      >
-        Place Order
-      </button>
-    </form>
+    <div>
+      <form action="">
+        <div>
+          
+        </div>
+      </form>
+    </div>
+
   );
 };
 

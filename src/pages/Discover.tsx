@@ -2,12 +2,13 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import HeartIcon from "../assets/img/heart.svg"
 import cartIcon from "../assets/img/shopping-cart.svg";
-import backIcon from "../assets/img/chevron-left.svg"
+import backIcon from "../assets/img/chevron-left.svg";
+import All from "./All"
 
 const Discover: React.FC = () => {
     return (
         <div>
-            <div className='flex justify-between'>
+            {/* <div className=' justify-between hidden md:flex'>
                 <div className='flex items-center'>
                     <Link to="/home">
                         <img className='w-12 sm:w-14 2xl:w-16' src={backIcon} alt="" />      
@@ -18,10 +19,11 @@ const Discover: React.FC = () => {
                     <Link to="/favourite"><img className='w-6 md:w-8' src={HeartIcon} alt="favourites" /></Link>  
                     <Link to="/cart"> <img className='items- w-6 md:w-8 ' src={cartIcon} alt=" cart page" /> </Link>
                 </div>
-            </div>
-            <div className=' italic text-xl font-bold text-center'>
+            </div> */}
+            {/* <div className=' italic text-xl font-bold text-center'>
                 <h2>Discover Page Coming Soon ....</h2>
-            </div>
+            </div> */}
+            <All></All>
         </div>
     );
 };

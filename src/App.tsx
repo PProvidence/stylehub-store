@@ -6,6 +6,7 @@ import Discover from './pages/Discover';
 import Cart from './pages/Cart';
 import All from './pages/All';
 import Favourite from './pages/Favourite';
+import Checkout from './pages/Checkout';
 
 const App: React.FC = () => {
   return (
@@ -20,7 +21,7 @@ const App: React.FC = () => {
         <Route path="/discover" element={<Discover />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
         <Route path="/favourite" element={<Favourite />}></Route>
-
+        <Route path="/checkout" element={<Checkout />}></Route>
       </Routes>
 
     </Router>

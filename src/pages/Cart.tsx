@@ -113,8 +113,9 @@ const Cart: React.FC = () => {
                     </div>
                 </div>
             </div> 
-            <div className='flex mt-4 w-3/4  justify-center'>
-                <button className='rounded-2xl w-full py-5 bg-style-purple'><div className="text-center px-1.5 py-0.5 text-style-white text-lg font-bold font-['Manrope']">Checkout</div></button>
+            <div className='flex mt-4 w-3/5 justify-center'>
+                <Link to="/checkout" className='w-full'><button className='rounded-2xl w-full py-5 bg-style-purple'><div className="text-center px-1.5 py-0.5 text-style-white text-lg font-bold font-['Manrope']">Checkout</div></button>
+                </Link>
             </div>
         </div>
     );

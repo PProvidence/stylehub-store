@@ -13,7 +13,10 @@ module.exports = {
         'style-yellow': '#FFBA69',
         'style-red': '#F68181',
         'style-white': '#FEF9F9',    
-        'style-ash': '#6C6B6B',    
+        'style-ash': '#6C6B6B',   
+        'style-lavender': '#D377FF',   
+        'style-lavender-200': '#ECC9FD',
+        'style-gray2': '#BEBCBC',
       },
 
       fontFamily: {

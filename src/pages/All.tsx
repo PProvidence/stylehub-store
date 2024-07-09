@@ -81,7 +81,7 @@ const All: React.FC = () => {
                             </div>
                         </div>
                         <div className='flex mt-4 justify-center'>
-                            <button className='rounded-xl px-1.5 py-0.5 bg-style-purple'><div className="text-center px-1.5 py-0.5 text-style-white text-lg font-bold font-['Manrope']">Add To Cart</div></button>
+                        <Link to="/cart"><button className='rounded-xl px-1.5 py-0.5 bg-style-purple'><div className="text-center px-1.5 py-0.5 text-style-white text-lg font-bold font-['Manrope']">Add To Cart</div></button></Link>
 
                         </div>
                     </div>
@@ -110,7 +110,7 @@ const All: React.FC = () => {
                             </div>
                         </div>
                         <div className='flex mt-4 justify-center'>
-                            <button className='rounded-xl px-1.5 py-0.5 bg-style-purple'><div className="text-center px-1.5 py-0.5 text-style-white text-lg font-bold font-['Manrope']">Add To Cart</div></button>
+                        <Link to="/cart"><button className='rounded-xl px-1.5 py-0.5 bg-style-purple'><div className="text-center px-1.5 py-0.5 text-style-white text-lg font-bold font-['Manrope']">Add To Cart</div></button></Link>
 
                         </div>
                     </div>
@@ -139,7 +139,7 @@ const All: React.FC = () => {
                             </div>
                         </div>
                         <div className='flex mt-4 justify-center'>
-                            <button className='rounded-xl px-1.5 py-0.5 bg-style-purple'><div className="text-center px-1.5 py-0.5 text-style-white text-lg font-bold font-['Manrope']">Add To Cart</div></button>
+                        <Link to="/cart"><button className='rounded-xl px-1.5 py-0.5 bg-style-purple'><div className="text-center px-1.5 py-0.5 text-style-white text-lg font-bold font-['Manrope']">Add To Cart</div></button></Link>
                         </div>
                     </div>
 

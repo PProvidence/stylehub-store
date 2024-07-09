@@ -18,6 +18,7 @@ module.exports = {
 
       fontFamily: {
         Manrope: [ "Manrope", "sans-serif"],
+        Inter:["Inter", "sans-serif"]
       },
     },
   },

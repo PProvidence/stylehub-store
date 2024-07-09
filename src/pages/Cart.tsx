@@ -89,18 +89,26 @@ const Cart: React.FC = () => {
                 <div className="w-full flex-col justify-start items-start gap-4 inline-flex">  
                     <div className="text-center text-style-deep-purple text-2xl font-bold font-['Manrope']">Order Summary</div>
                     
-                    <div className="flex flex-col">
-                        <div className="text-style-deep-purple gap-5 font-['Manrope'] flex justify-between">
+                    <div className="flex flex-col w-full">
+                        <div className="text-style-deep-purple gap-5 font-['Manrope'] flex w-full justify-between">
                             <div className="text-xl">Color : </div>
-                            <div className="text-xl">Black</div>
+                            <div className="text-xl font-semibold">2 Items</div>
                         </div>
                         <div className="text-style-deep-purple gap-5 font-['Manrope'] flex justify-between">
-                            <div className="text-xl">Color : </div>
-                            <div className="text-xl">Black</div>
+                            <div className="text-xl">Price Subtotal : </div>
+                            <div className="text-xl font-semibold">$131.9</div>
                         </div>
                             <div className="text-style-deep-purple gap-5 font-['Manrope'] flex justify-between">
-                                <div className="text-xl">Color : </div>
-                                <div className="text-xl">Black</div>
+                                <div className="text-xl">Delivery fee : </div>
+                                <div className="text-xl font-semibold">$30</div>
+                            </div>
+                            <div className="text-style-deep-purple gap-5 font-['Manrope'] flex justify-between">
+                                <div className="text-xl">Discount : </div>
+                                <div className="text-xl font-semibold">$20</div>
+                            </div>
+                            <div className="text-style-deep-purple gap-5 font-['Manrope'] flex justify-between">
+                                <div className="text-xl">Total : </div>
+                                <div className="text-xl font-semibold">$181,9</div>
                             </div>
                     </div>
                 </div>

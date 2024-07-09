@@ -20,11 +20,11 @@ const CheckoutPage: React.FC<CheckoutPageProps> = ({ cartItems }) => {
   );
 
   const removeFromCart = (product: Product) => {
-    // should not happenon checkoutout ratther cart
+    // should not happen on checkoutout rather cart
   };
 
   const updateQuantity = (product: Product, quantity: number) => {
-    // should not happenon checkoutout ratther cart
+    // should not happen on checkout rather cart
   };
 
   const handleFormSubmit = (formData: { name: string; email: string; address: string }) => {

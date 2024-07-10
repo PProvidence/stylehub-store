@@ -30,7 +30,7 @@ const All: React.FC = () => {
             
             <div className='mx-3 mt-4 2xl:mt-8 grid grid-cols-2 md:grid-cols-4 gap-5'>
                 <div>
-                    <img className='' src={product1} alt="" />
+                <Link to="/details"><img className='' src={product1} alt="" /></Link>
                     <div className='mt-4'>
                         <div>
                             <p>Gown</p>

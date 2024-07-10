@@ -61,7 +61,7 @@ const Checkout: React.FC = () => {
             <div className=' text-xl font-bold text-center'>
 
                 <div className='mx-4'>
-                    <form action="./sucess.tsx" className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                    <form action="/sucess" method='get' className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                         <div className='flex flex-col gap-4'>
                             <div className='flex flex-col gap-4 mt-6'>
                                 <div className='flex items-center rounded-lg ps-4 border border-style-gray2 rounded-d shadow-sm focus:outline-none focus:ring-[#D95F27] focus:border-[#D95F27] sm:text-sm'>

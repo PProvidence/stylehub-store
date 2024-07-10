@@ -48,10 +48,10 @@ const Home: React.FC = () => {
                     <Link to="/all" className="text-style-ash hover:text-style-deep-purple text-lg 2xl:text-3xlfont-semibold font-['Manrope']">See all</Link>
                 </div>
                 <div className=' mt-4 2xl:mt-8 grid grid-cols-2 md:grid-cols-4 gap-5'>
-                    <img className='' src={popular1} alt="" />
-                    <img className='' src={popular2} alt="" />
-                    <img className='' src={popular3} alt="" />
-                    <img className='' src={popular4} alt="" />
+                    <Link to="/details"><img className='' src={popular1} alt="" /></Link>
+                    <Link to="/details"><img className='' src={popular2} alt="" /></Link>
+                    <Link to="/details"><img className='' src={popular3} alt="" /></Link>
+                    <Link to="/details"><img className='' src={popular4} alt="" /></Link>
                 </div>
             </section>
         </div>

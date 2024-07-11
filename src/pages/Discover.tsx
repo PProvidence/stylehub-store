@@ -1,8 +1,10 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
-// import HeartIcon from "../assets/img/heart.svg"
-// import cartIcon from "../assets/img/shopping-cart.svg";
-// import backIcon from "../assets/img/chevron-left.svg";
+import { Link } from "react-router-dom";
+import homeNavInactive from "../assets/img/homeNavInactive.svg";
+import discoverNavActive from "../assets/img/discover_colored.svg";
+import cartNav from "../assets/img/shopping-cart-gray-mob-nav.svg";
+import heartNav from "../assets/img/heart-gray.svg";
+import settingsNav from "../assets/img/settings.svg";
 import All from "./All"
 
 const Discover: React.FC = () => {
@@ -24,6 +26,28 @@ const Discover: React.FC = () => {
                 <h2>Discover Page Coming Soon ....</h2>
             </div> */}
             <All></All>
+            <footer className='mt-8 px-4 pb-3 flex justify-between md:hidden'>
+                <div className='flex flex-col items-center'>
+                    <Link to="/"><img src={homeNavInactive} alt="" /></Link>
+                    <p className='text-sm xs:text-lg  sm:text-xl font-semibold'>Home</p>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <Link to="/discover"><img src={discoverNavActive} alt="" /></Link>
+                        <p className='text-sm xs:text-lg sm:text-xl font-semibold'>Discover</p>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <Link to="/cart"><img src={cartNav} alt="" /></Link>
+                    <p className='text-sm xs:text-lg sm:text-xl font-semibold'>Cart</p>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <Link to="/favourite"><img src={heartNav} alt="" /></Link>
+                    <p className='text-sm xs:text-lg sm:text-xl font-semibold'>Favorite</p>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <Link to="/setting"><img src={settingsNav} alt="" /></Link>
+                    <p className='text-sm xs:text-lg sm:text-xl font-semibold'>Setting</p>
+                </div>
+            </footer>
         </div>
     );
 };

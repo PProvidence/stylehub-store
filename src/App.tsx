@@ -9,6 +9,7 @@ import Favourite from './pages/Favourite';
 import Checkout from './pages/Checkout';
 import Details from './pages/Details';
 import Success from './pages/sucess';
+import Setting from './pages/Settings';
 
 const App: React.FC = () => {
   return (
@@ -26,6 +27,7 @@ const App: React.FC = () => {
         <Route path="/favourite" element={<Favourite />}></Route>
         <Route path="/checkout" element={<Checkout />}></Route>
         <Route path="*" element={<Success />}></Route>
+        <Route path='/setting' element={<Setting />}></Route>
       </Routes>
 
     </Router>

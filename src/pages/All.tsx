@@ -34,20 +34,20 @@ const All: React.FC = () => {
                     <div className='mt-4'>
                         <div>
                             <p>Gown</p>
-                            <div className='flex justify-between'>
+                            <div className='flex justify-start items-center'>
                                 <div className='flex'>
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" /> 
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" /> 
                                 </div>
-                                <span className='font-[Inter]'>(1000+)</span>
+                                <span className='font-[Inter] font-medium text-xs md:text-base'>(1000+)</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <div><span className='text-style-deep-purple text-2xl font-bold font-[Manrope]'> $80.</span><span className="text-style-deep-purple text-sm  font-bold font-['Manrope']">95</span></div>
                                 <div className="px-1.5 py-0.5 rounded-xl border-2 border-stone-900 justify-center items-center flex">
-                                    <div className="text-center text-style-red text-xl md:text-lg font-medium font-['Manrope']">-10%</div>
+                                    <div className="text-center text-sm text-style-red text--xl md:text-lg font-medium font-['Manrope']">-10%</div>
                                 </div>
                             </div>
                         </div>
@@ -63,20 +63,20 @@ const All: React.FC = () => {
                     <div className='mt-4'>
                         <div>
                             <p>Gown</p>
-                            <div className='flex justify-between'>
+                            <div className='flex justify-start items-center'>
                                 <div className='flex'>
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" /> 
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" /> 
                                 </div>
-                                <span className='font-[Inter]'>(1000+)</span>
+                                <span className='font-[Inter] font-medium text-xs md:text-base'>(1000+)</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <div><span className='text-style-deep-purple text-2xl font-bold font-[Manrope]'> $80.</span><span className="text-style-deep-purple text-sm  font-bold font-['Manrope']">95</span></div>
                                 <div className="px-1.5 py-0.5 rounded-xl border-2 border-stone-900 justify-center items-center flex">
-                                    <div className="text-center text-style-red text-xl md:text-lg font-medium font-['Manrope']">-10%</div>
+                                    <div className="text-center text-sm text-style-red text--xl md:text-lg font-medium font-['Manrope']">-10%</div>
                                 </div>
                             </div>
                         </div>
@@ -90,22 +90,22 @@ const All: React.FC = () => {
                 <div>
                     <img className='' src={product3} alt="" />
                     <div className='mt-4'>
-                        <div>
+                    <div>
                             <p>Gown</p>
-                            <div className='flex justify-between'>
+                            <div className='flex justify-start items-center'>
                                 <div className='flex'>
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" /> 
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" /> 
                                 </div>
-                                <span className='font-[Inter]'>(1000+)</span>
+                                <span className='font-[Inter] font-medium text-xs md:text-base'>(1000+)</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <div><span className='text-style-deep-purple text-2xl font-bold font-[Manrope]'> $80.</span><span className="text-style-deep-purple text-sm  font-bold font-['Manrope']">95</span></div>
                                 <div className="px-1.5 py-0.5 rounded-xl border-2 border-stone-900 justify-center items-center flex">
-                                    <div className="text-center text-style-red text-xl md:text-lg font-medium font-['Manrope']">-10%</div>
+                                    <div className="text-center text-sm text-style-red text--xl md:text-lg font-medium font-['Manrope']">-10%</div>
                                 </div>
                             </div>
                         </div>
@@ -121,20 +121,20 @@ const All: React.FC = () => {
                     <div className='mt-4'>
                         <div>
                             <p>Gown</p>
-                            <div className='flex justify-between'>
+                            <div className='flex justify-start items-center'>
                                 <div className='flex'>
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" />
-                                    <img className='w-6' src={starIcon} alt="" /> 
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" />
+                                    <img className='w-4 xs:w-6' src={starIcon} alt="" /> 
                                 </div>
-                                <span className='font-[Inter]'>(1000+)</span>
+                                <span className='font-[Inter] font-medium text-xs md:text-base'>(1000+)</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <div><span className='text-style-deep-purple text-2xl font-bold font-[Manrope]'> $80.</span><span className="text-style-deep-purple text-sm  font-bold font-['Manrope']">95</span></div>
                                 <div className="px-1.5 py-0.5 rounded-xl border-2 border-stone-900 justify-center items-center flex">
-                                    <div className="text-center text-style-red text-xl md:text-lg font-medium font-['Manrope']">-10%</div>
+                                    <div className="text-center text-sm text-style-red text--xl md:text-lg font-medium font-['Manrope']">-10%</div>
                                 </div>
                             </div>
                         </div>

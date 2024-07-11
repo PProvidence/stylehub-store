@@ -10,6 +10,12 @@ import popular1 from "../assets/img/Frame 60172.png";
 import popular2 from "../assets/img/Frame 60173.png";
 import popular3 from "../assets/img/Frame 60279.png";
 import popular4 from "../assets/img/Frame 60280.png";
+import homeNav from "../assets/img/Frame 60175.svg";
+import discoverNav from "../assets/img/discover_gray.svg";
+import cartNav from "../assets/img/shopping-cart-gray-mob-nav.svg";
+import heartNav from "../assets/img/heart-gray.svg";
+import settingsNav from "../assets/img/settings.svg";
+
 
 const Home: React.FC = () => {
     return (
@@ -54,6 +60,28 @@ const Home: React.FC = () => {
                     <Link to="/details"><img className='' src={popular4} alt="" /></Link>
                 </div>
             </section>
+            <footer className='mt-8 px-4 pb-3 flex justify-between md:hidden'>
+                <div className='flex flex-col items-center'>
+                    <Link to="/"><img src={homeNav} alt="" /></Link>
+                    <p className='text-sm xs:text-lg  sm:text-xl font-semibold'>Home</p>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <Link to="/discover"><img src={discoverNav} alt="" /></Link>
+                        <p className='text-sm xs:text-lg sm:text-xl font-semibold'>Discover</p>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <Link to="/cart"><img src={cartNav} alt="" /></Link>
+                    <p className='text-sm xs:text-lg sm:text-xl font-semibold'>Cart</p>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <Link to="/favourite"><img src={heartNav} alt="" /></Link>
+                    <p className='text-sm xs:text-lg sm:text-xl font-semibold'>Favorite</p>
+                </div>
+                <div className='flex flex-col items-center'>
+                    <Link to="/setting"><img src={settingsNav} alt="" /></Link>
+                    <p className='text-sm xs:text-lg sm:text-xl font-semibold'>Setting</p>
+                </div>
+            </footer>
         </div>
     );
 };
